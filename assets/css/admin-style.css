@@ -1,0 +1,42 @@
+div#fsdp-flipbox-settings input[type="text"]:not([class="color-field"]),
+div#fsdp-flipbox-settings textarea,
+div#fsdp-flipbox-settings .wp-picker-container,
+div#fsdp-flipbox-settings select{
+    width: 100% !important;
+    margin: 0 auto;
+    display: block;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 2px;
+}
+div#fsdp-flipbox-settings input[type="checkbox"]{
+    margin: 0 auto;
+    display: block;
+    margin: 10px;
+    padding: 4px;
+}
+div#fsdp-flipbox-settings input:focus,
+div#fsdp-flipbox-settings textarea:focus {
+    border: 2px solid blue;
+    font-weight: 600;
+    color: #000;
+    text-decoration: double;
+}
+
+table.fsdp-flipbox-settings-btn {
+    display: flex;
+    border: 2px solid gray;
+    border-bottom: 0px;
+    background: #23282d;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+table.fsdp-flipbox-settings-btn td {
+    cursor: pointer;
+    padding: 5px;
+}
+table.fsdp-flipbox-settings-btn td.bt-active{
+    background: #32373ccf;
+    padding: 5px;
+}

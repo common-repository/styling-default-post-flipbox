@@ -1,0 +1,2138 @@
+/* Common Classes */
+
+html body .fsdp-flipbox figure {
+  margin-bottom: 0px;
+}
+.fsdp-flipbox #flip-heading {
+  font-weight: 300;
+  text-align: center;
+  color: #333333;
+  padding-bottom: 20px;
+}
+
+.fsdp-flipbox img {
+  width: 100%;
+}
+html body .fsdp-flipbox ul {
+  list-style: none;
+  padding-left: 0;
+}
+.fsdp-flipbox .fsdp-flip-card {
+  background-color: transparent;
+  width: 300px;
+  perspective: 1000px;
+  margin: 10px 0;
+}
+.fsdp-flipbox .fsdp-flip-card-front,
+.fsdp-flipbox .fsdp-flip-card-back {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  z-index: 7;
+  padding: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+}
+.fsdp-flipbox .bg-gray {
+  background-color: #f5f5f5;
+}
+.fsdp-flipbox p {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 20px;
+  line-height: 24px;
+  height: auto;
+  overflow: hidden;
+}
+.fsdp-flipbox a.fsdp-flipbox-more-link {
+  font-size: 14px;
+  border-radius: 30px;
+  min-width: 100px;
+  text-align: center;
+  padding: 7px 15px;
+  display: inline-block;
+  margin: 20px auto 10px auto;
+  text-decoration: none;
+}
+.fsdp-flipbox a.fsdp-flipbox-more-link:hover {
+  text-decoration: none;
+}
+.fsdp-flipbox .fsdp-flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.fsdp-flipbox .border-rad-4 {
+  border-radius: 4px;
+}
+.fsdp-flipbox .container {
+  padding: 30px 15px;
+}
+
+/* ==== Layout 1 CSS ==== */
+.fsdp-flipbox-layout-1 .fsdp-flip-card-inner i {
+  font-size: 36px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: -30px;
+  display: block;
+}
+.fsdp-flipbox-layout-1 .fsdp-flip-card-front img {
+  height: 210px;
+  object-fit: cover;
+}
+.fsdp-flipbox-layout-1 i {
+  color: #3498db;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-1 i {
+  color: #e74c3c;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-1 i {
+  color: #2ecc71;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-1 a {
+  color: #3498db;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-1 a:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+.fsdp-flipbox-layout-1 a {
+  color: #8e44ad;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-1 a:hover {
+  background-color: #8e44ad;
+  color: #fff;
+}
+.fsdp-flipbox-layout-1 a.fsdp-flipbox-more-link {
+  color: #e74c3c;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-1 a.fsdp-flipbox-more-link:hover {
+  background-color: #e74c3c;
+  color: #fff;
+}
+.fsdp-flipbox-layout-1 .fsdp-flip-card-inner {
+  border: 2px solid #fff;
+}
+.fsdp-flipbox-layout-1 .fsdp-flip-card-front {
+  background-color: #9b59b6;
+}
+.fsdp-flipbox-layout-1 .fsdp-flip-card-front {
+  background-color: #3498db;
+}
+.fsdp-flipbox-layout-1 .fsdp-flip-card-front {
+  background-color: #e67e22;
+}
+.fsdp-flipbox-layout-1 .fsdp-flip-card {
+  box-shadow: 0 0 0 1px #e67e22;
+}
+.fsdp-flipbox-layout-1 .fsdp-flip-card {
+  box-shadow: 0 0 0 1px #3498db;
+}
+.fsdp-flipbox-layout-1 .fsdp-flip-card {
+  box-shadow: 0 0 0 1px #9b59b6;
+}
+.fsdp-flipbox-layout-1 .fsdp-flip-card-back {
+  background-color: #9b59b6;
+  color: white;
+  padding: 10px;
+}
+.fsdp-flipbox-layout-1 .fsdp-flip-card-back {
+  color: white;
+  background-color: #e74c3c;
+  z-index: 1;
+}
+.fsdp-flipbox-layout-1 .fsdp-flip-card-back:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0.3;
+  z-index: -1;
+}
+.fsdp-flipbox-layout-1 .fsdp-flip-card:hover {
+  box-shadow: 0 0 0 1px #e74c3c;
+}
+.fsdp-flipbox-layout-1 .fsdp-flip-card-back {
+  background-color: #f1c40f;
+  color: white;
+  padding: 10px;
+}
+.fsdp-flipbox-layout-1 .fsdp-flip-card:hover {
+  box-shadow: 0 0 0 1px #f1c40f;
+}
+.fsdp-flipbox-layout-1 .fsdp-flip-card-inner .fsdp-flip-card-front div,
+.fsdp-flipbox-layout-1 .fsdp-flip-card-inner .fsdp-flip-card-back div {
+  margin: 0 auto;
+}
+
+/* ==== Layout 2 CSS ==== */
+.fsdp-flipbox-layout-2 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-2 .fsdp-flip-card-front {
+  background-color: #fff;
+  border: 2px solid #686de0;
+}
+.fsdp-flipbox-layout-2 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-2 .fsdp-flip-card-front {
+  border: 2px solid #8b8c8e;
+  background-size: cover;
+}
+.fsdp-flipbox-layout-2 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-2 .fsdp-flip-card-front {
+  background-color: #262b31;
+  border: 2px solid #262b31;
+}
+.fsdp-flipbox-layout-2 i {
+  background-color: #ff4757;
+}
+.fsdp-flipbox-layout-2 i {
+  background-color: #2ecc71;
+}
+.fsdp-flipbox-layout-2 i {
+  background-color: #f1c40f;
+}
+
+.fsdp-flipbox-layout-2 i {
+  background-color: #8e44ad;
+  font-size: 36px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+}
+.fsdp-flip-card .fsdp-flip-card-front div{
+	text-align: center;
+	width: 100%;
+}
+
+.fsdp-flipbox-layout-2 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-2 .fsdp-flip-card-front {
+  border-radius: 4px;
+}
+
+/* ==== Layout 3 CSS ==== */
+.fsdp-flipbox-layout-3 i {
+  font-size: 50px;
+  margin-top: 20px;
+}
+.fsdp-flipbox-layout-3 i {
+  color: #ff4757;
+}
+.fsdp-flipbox-layout-3 i {
+  color: #fff;
+}
+.fsdp-flipbox-layout-3 i {
+  color: #fff;
+}
+
+.fsdp-flipbox-layout-3 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-3 .fsdp-flip-card-front {
+  border-radius: 4px;
+}
+
+/* ==== Layout 4 CSS ==== */
+.fsdp-flipbox-layout-4 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-4 .fsdp-flip-card-front {
+  border-radius: 4px;
+}
+.fsdp-flipbox-layout-4 i {
+  font-size: 50px;
+  margin-top: 20px;
+  color: #fff;
+}
+.fsdp-flipbox-layout-4 .fsdp-flip-card-back {
+  background-color: #ff4757;
+}
+.fsdp-flipbox-layout-4 .fsdp-flip-card-front {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.42),
+      rgba(255, 255, 2255, 0.42)
+    );
+}
+.fsdp-flipbox-layout-4 .flip-horizontal-top i {
+  color: #ff6348;
+}
+
+.fsdp-flipbox-layout-4 .fsdp-flip-card-back a {
+  background-color: #fff;
+  color: #ff4757;
+}
+.fsdp-flipbox-layout-4 .fsdp-flip-card-back a:hover {
+  color: #fff;
+  background-color: #e84393;
+}
+.fsdp-flipbox-layout-4 .fsdp-flip-card-back a {
+  background-color: #fff;
+  color: #eccc68;
+}
+.fsdp-flipbox-layout-4 .fsdp-flip-card-back a:hover {
+  color: #fff;
+  background-color: #eccc68;
+}
+.fsdp-flipbox-layout-4 .fsdp-flip-card-back a {
+  background-color: #333333;
+  color: #fff;
+}
+.fsdp-flipbox-layout-4 .fsdp-flip-card-back a:hover {
+  color: #333333;
+  background-color: #fff;
+}
+
+/* ==== Layout 5 CSS ==== */
+.fsdp-flipbox-layout-5 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-5 .fsdp-flip-card-front {
+  border-radius: 4px;
+}
+.fsdp-flipbox-layout-5 img {
+  width: 100%;
+}
+
+.fsdp-flipbox-layout-5 .fsdp-flip-card-back {
+  background-color: #8e44ad;
+}
+.fsdp-flipbox-layout-5 .fsdp-flip-card-back {
+  background-color: #130f40;
+}
+.fsdp-flipbox-layout-5 .fsdp-flip-card-back {
+  background-color: #16a085;
+}
+
+.fsdp-flipbox-layout-5 a {
+  background-color: #333;
+  color: #fff;
+}
+.fsdp-flipbox-layout-5 a:hover {
+  background-color: #fff;
+  color: #333;
+}
+.fsdp-flipbox-layout-5 a {
+  background-color: #fff;
+  color: #3498db;
+}
+.fsdp-flipbox-layout-5 a:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+.fsdp-flipbox-layout-5 a {
+  background-color: #333;
+  color: #fff;
+}
+.fsdp-flipbox-layout-5 a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* ==== Layout 7 CSS ==== */
+.fsdp-flipbox-layout-7 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-7 .fsdp-flip-card-front {
+  border-radius: 4px;
+}
+.fsdp-flipbox-layout-7 .fsdp-flip-card-front p {
+  height: auto !important;
+}
+
+.fsdp-flipbox-layout-7 .fsdp-flip-card-front {
+  background-color: #34495e;
+  border: 1px solid #1abc9c;
+}
+.fsdp-flipbox-layout-7 .fsdp-flip-card-front {
+  border: 1px solid #ebebeb;
+}
+.fsdp-flipbox-layout-7 .fsdp-flip-card-front {
+  background-color: #f39c12;
+  border: 1px solid #ebebeb;
+}
+.fsdp-flipbox-layout-7 .fsdp-flip-card-back {
+  background-color: #1abc9c;
+  border: 1px solid #1abc9c;
+}
+.fsdp-flipbox-layout-7 .fsdp-flip-card-back {
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+}
+.fsdp-flipbox-layout-7 .fsdp-flip-card-back {
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+}
+
+.fsdp-flipbox-layout-7 a {
+  color: #34495e;
+}
+.fsdp-flipbox-layout-7 a:hover {
+  color: #fff;
+}
+.fsdp-flipbox-layout-7 a {
+  color: #34495e;
+}
+.fsdp-flipbox-layout-7 a:hover {
+  color: #34495e;
+}
+.fsdp-flipbox-layout-7 a {
+  color: #34495e;
+}
+.fsdp-flipbox-layout-7 a:hover {
+  color: #f39c12;
+}
+.fsdp-flipbox-layout-7 .fsdp-flip-card-back p {
+  color: #f39c12;
+}
+
+.fsdp-flipbox-layout-7 i {
+  color: #1abc9c;
+}
+.fsdp-flipbox-layout-7 i {
+  color: #fff;
+}
+.fsdp-flipbox-layout-7 i {
+  color: #fff;
+}
+.fsdp-flipbox-layout-7 i {
+  font-size: 40px;
+}
+
+/* ==== Layout 9 CSS ==== */
+.fsdp-flipbox-layout-9 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-9 .fsdp-flip-card-front {
+  border-radius: 4px;
+}
+.fsdp-flipbox-layout-9 .fsdp-flip-card-front {
+  background-color: #2f3542;
+}
+.fsdp-flipbox-layout-9 .fsdp-flip-card-front {
+  background-color: #ff6b81;
+}
+.fsdp-flipbox-layout-9 .fsdp-flip-card-front {
+  background-color: #70a1ff;
+}
+
+.fsdp-flipbox-layout-9 .fsdp-flip-card-back {
+  background-color: #4834d4;
+}
+.fsdp-flipbox-layout-9 .fsdp-flip-card-back {
+  background-color: #ff6b81;
+}
+.fsdp-flipbox-layout-9 .fsdp-flip-card-back {
+  background-color: #70a1ff;
+}
+.fsdp-flipbox-layout-9 a {
+  color: #fff;
+  background-color: #2f3542;
+}
+
+.fsdp-flipbox-layout-9 a:hover {
+  color: #fff;
+  background-color: #1abc9c;
+}
+.fsdp-flipbox-layout-9 a {
+  color: #fff;
+  background-color: #2f3542;
+}
+.fsdp-flipbox-layout-9 a:hover {
+  color: #2f3542;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-9 a {
+  color: #70a1ff;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-9 a:hover {
+  color: #70a1ff;
+  background-color: #fff;
+}
+
+.fsdp-flipbox-layout-9 i {
+  color: #fff;
+  background-color: #1abc9c;
+}
+.fsdp-flipbox-layout-9 i {
+  color: #fff;
+  background-color: #2f3542;
+}
+.fsdp-flipbox-layout-9 i {
+  color: #70a1ff;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-9 i {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/* ==== Layout 10 CSS ==== */
+.fsdp-flipbox-layout-10 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-10 .fsdp-flip-card-front {
+  border-radius: 4px;
+}
+.fsdp-flipbox-layout-10 .fsdp-flip-card-front {
+  background-color: #badc58;
+}
+
+.fsdp-flipbox-layout-10 .fsdp-flip-card-front i {
+  color: #badc58;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-10 .fsdp-flip-card-front i {
+  color: #fff;
+  background-color: #badc58;
+}
+.fsdp-flipbox-layout-10 .fsdp-flip-card-front i {
+  color: #fff;
+  background-color: #badc58;
+}
+
+.fsdp-flipbox-layout-10 .fsdp-flip-card-back i {
+  color: #fff;
+}
+.fsdp-flipbox-layout-10 .fsdp-flip-card-back i {
+  color: #333;
+}
+.fsdp-flipbox-layout-10 .fsdp-flip-card-back i {
+  color: #333;
+}
+.fsdp-flipbox-layout-10 .fsdp-flip-card-front i {
+  font-size: 24px;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+}
+.fsdp-flipbox-layout-10 .fsdp-flip-card-back i {
+  font-size: 40px;
+  color: #fff;
+}
+.fsdp-flipbox-layout-10 .fsdp-flip-card-front h6 {
+  color: #dff9fb;
+}
+
+/* ==== Layout 11 CSS ==== */
+.fsdp-flipbox-layout-11 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-11 .fsdp-flip-card-front {
+  border-radius: 4px;
+}
+.fsdp-flipbox-layout-11 .fsdp-flip-card-front {
+  background-color: #4834d4;
+}
+.fsdp-flipbox-layout-11 .fsdp-flip-card-front {
+  background-color: #be2edd;
+}
+.fsdp-flipbox-layout-11 .fsdp-flip-card-front {
+  background-color: #badc58;
+}
+
+.fsdp-flipbox-layout-11 .fsdp-flip-card-back {
+  background-color: #0abde3;
+}
+.fsdp-flipbox-layout-11 .fsdp-flip-card-back {
+  background-color: #f8efba;
+}
+.fsdp-flipbox-layout-11 .fsdp-flip-card-back {
+  background-color: #f8efba;
+}
+
+.fsdp-flipbox-layout-11 .fsdp-flip-card-front i {
+  color: #4834d4;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-11 .fsdp-flip-card-front i {
+  color: #be2edd;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-11 .fsdp-flip-card-front i {
+  color: #badc58;
+  background-color: #fff;
+}
+
+.fsdp-flipbox-layout-11 .fsdp-flip-card-back a {
+  background-color: #4834d4;
+  color: #fff;
+}
+.fsdp-flipbox-layout-11 .fsdp-flip-card-back a {
+  background-color: #be2edd;
+  color: #fff;
+}
+.fsdp-flipbox-layout-11 .fsdp-flip-card-back a {
+  background-color: #badc58;
+  color: #fff;
+}
+
+.fsdp-flipbox-layout-11 .fsdp-flip-card-back a:hover {
+  background-color: #30336b;
+}
+.fsdp-flipbox-layout-11 .fsdp-flip-card-back a {
+  border-radius: 4px;
+}
+
+.fsdp-flipbox-layout-11 .fsdp-flip-card-back i {
+  color: #4834d4;
+}
+.fsdp-flipbox-layout-11 .fsdp-flip-card-back i {
+  color: #be2edd;
+}
+.fsdp-flipbox-layout-11 .fsdp-flip-card-back i {
+  color: #badc58;
+}
+.fsdp-flipbox-layout-11 .fsdp-flip-card-front i {
+  font-size: 24px;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 10px;
+}
+.fsdp-flipbox-layout-11 .fsdp-flip-card-back i {
+  font-size: 24px;
+  color: #fff;
+  border-bottom: 1px solid #333;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.fsdp-flipbox-layout-11 .fsdp-flip-card-front h6 {
+  color: #dff9fb;
+}
+.fsdp-flipbox-layout-11 p {
+  height: auto !important;
+}
+
+/* ==== Layout 12 CSS ==== */
+.fsdp-flipbox-layout-12 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-12 .fsdp-flip-card-front {
+  border-radius: 4px;
+}
+.fsdp-flipbox-layout-12 .fsdp-flip-card-front {
+  background-color: #f368e0;
+  border: 2px solid #e3e4e4;
+}
+.fsdp-flipbox-layout-12 .fsdp-flip-card-front {
+  background-color: #5f27cd;
+  border: 2px solid #e3e4e4;
+}
+.fsdp-flipbox-layout-12 .fsdp-flip-card-front {
+  background-color: #00d2d3;
+  border: 2px solid #fff;
+}
+
+.fsdp-flipbox-layout-12 .fsdp-flip-card-back {
+  border: 2px solid #e3e4e4;
+}
+.fsdp-flipbox-layout-12 .fsdp-flip-card-back {
+  background-color: #fafafa;
+  border: 2px solid #5f27cd;
+}
+.fsdp-flipbox-layout-12 .fsdp-flip-card-back {
+  border: 2px solid #e3e4e4;
+}
+
+.fsdp-flipbox-layout-12 .fsdp-flip-card-front {
+  align-items: flex-start;
+}
+.fsdp-flipbox-layout-12 .fsdp-flip-card-front i {
+  background-color: #fff;
+  z-index: 1;
+  margin-top: 30px;
+  position: relative;
+}
+.fsdp-flipbox-layout-12 .fsdp-flip-card-front i:after {
+  background-color: #fff;
+  content: "";
+  position: absolute;
+  width: 55px;
+  top: -40px;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: -1;
+  height: 66px;
+}
+
+.fsdp-flipbox-layout-12 .fsdp-flip-card-front i {
+  color: #f368e0;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-12 .fsdp-flip-card-front i {
+  color: #5f27cd;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-12 .fsdp-flip-card-front i {
+  color: #00d2d3;
+  background-color: #fff;
+}
+
+.fsdp-flipbox-layout-12 h6:after {
+  background-color: #f368e0;
+}
+.fsdp-flipbox-layout-12 h6:after {
+  background-color: #5f27cd;
+}
+.fsdp-flipbox-layout-12 p,
+.fsdp-flipbox-layout-12 h6 {
+  color: #5f27cd;
+}
+.fsdp-flipbox-layout-12 h6:after {
+  background-color: #00d2d3;
+}
+
+.fsdp-flipbox-layout-12 .fsdp-flip-card-front i {
+  font-size: 24px;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.fsdp-flipbox-layout-12 h4 {
+  color: #fff;
+  font-size: 30px;
+  padding-top: 15px;
+}
+.fsdp-flipbox-layout-12 h5 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.fsdp-flipbox-layout-12 h6 {
+  font-size: 22px;
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+.fsdp-flipbox-layout-12 h6:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 60px;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fsdp-flipbox-layout-12 p {
+  height: auto !important;
+}
+
+/* ==== Layout 13 CSS ==== */
+.fsdp-flipbox-layout-13 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-13 .fsdp-flip-card-front {
+  border-radius: 4px;
+}
+.fsdp-flipbox-layout-13 .fsdp-flip-card {
+  height: 240px;
+}
+.fsdp-flipbox-layout-13 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-13 .fsdp-flip-card-front {
+  width: 280px;
+  height: 240px;
+  left: 0;
+  right: 0;
+}
+.fsdp-flipbox-layout-13 .fsdp-flip-card-front {
+  background-color: #2f3542;
+}
+.fsdp-flipbox-layout-13 .fsdp-flip-card-front {
+  background-color: #ff6b81;
+}
+.fsdp-flipbox-layout-13 .fsdp-flip-card-front {
+  background-color: #70a1ff;
+}
+
+.fsdp-flipbox-layout-13 .fsdp-flip-card-back {
+  background-color: #ecf0f1;
+}
+
+.fsdp-flipbox-layout-13 a {
+  color: #2f3542;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-13 a:hover {
+  color: #fff;
+  background-color: #2f3542;
+}
+.fsdp-flipbox-layout-13 a {
+  color: #ff6b81;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-13 a:hover {
+  color: #fff;
+  background-color: #ff6b81;
+}
+.fsdp-flipbox-layout-13 a {
+  color: #70a1ff;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-13 a:hover {
+  color: #fff;
+  background-color: #70a1ff;
+}
+
+.fsdp-flipbox-layout-13 i {
+  color: #2f3542;
+  background-color: #fff;
+  border: 2px solid #2f3542;
+  box-shadow: 0 0 0 2px #fff;
+}
+.fsdp-flipbox-layout-13 i {
+  color: #ff6b81;
+  background-color: #fff;
+  border: 2px solid #ff6b81;
+  box-shadow: 0 0 0 2px #fff;
+}
+.fsdp-flipbox-layout-13 i {
+  color: #70a1ff;
+  background-color: #fff;
+  border: 2px solid #70a1ff;
+  box-shadow: 0 0 0 2px #fff;
+}
+.fsdp-flipbox-layout-13 i {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+}
+.fsdp-flipbox-layout-13 p {
+  height: auto !important;
+}
+
+/* ==== Layout 14 CSS ==== */
+.fsdp-flipbox-layout-14 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-14 .fsdp-flip-card-front {
+  border-radius: 4px;
+  padding: 5px;
+}
+.fsdp-flipbox-layout-14 .fsdp-flip-card-front-inner,
+.fsdp-flipbox-layout-14 .fsdp-flip-card-back-inner {
+  padding: 10px;
+  border-radius: 8px;
+}
+.fsdp-flipbox-layout-14 .fsdp-flip-card-front-inner,
+.fsdp-flipbox-layout-14 .fsdp-flip-card-front {
+  background-color: #f368e0;
+  border: 2px solid #fff;
+}
+.fsdp-flipbox-layout-14 .fsdp-flip-card-front {
+  background-color: #f5f6fa;
+  border: 2px solid #dcdde1;
+}
+.fsdp-flipbox-layout-14 .fsdp-flip-card-front-inner {
+  background-color: #f5f6fa;
+  border: 2px solid #bdc3c7;
+}
+.fsdp-flipbox-layout-14 .fsdp-flip-card-front-inner,
+.fsdp-flipbox-layout-14 .fsdp-flip-card-front {
+  background-color: #00d2d3;
+  border: 2px solid #fff;
+}
+
+.fsdp-flipbox-layout-14 .fsdp-flip-card-back {
+  background-color: #dfe4ea;
+  border: 2px solid #fff;
+  border: 2px solid #bdc3c7;
+}
+.fsdp-flipbox-layout-14 .fsdp-flip-card-back-inner {
+  background-color: #dfe4ea;
+  border: 2px solid #fff;
+  border: 2px solid #95a5a6;
+}
+
+.fsdp-flipbox-layout-14 .fsdp-flip-card-front,
+.fsdp-flipbox-layout-14 .fsdp-flip-card-back {
+  align-items: normal;
+}
+.fsdp-flipbox-layout-14 i {
+  background-color: #fff;
+  z-index: 1;
+  margin-top: 10px !important;
+  position: relative;
+}
+.fsdp-flipbox-layout-14 i:after {
+  background-color: #fff;
+  content: "";
+  position: absolute;
+  width: 55px;
+  top: -20px;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: -1;
+  height: 76px;
+  border-radius: 0 0 30px 30px;
+}
+
+.fsdp-flipbox-layout-14 .fsdp-flip-card-front i {
+  color: #f368e0;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-14 .fsdp-flip-card-front i {
+  color: #5f27cd;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-14 .fsdp-flip-card-front i:after {
+  border: 1px solid #dcdcdc;
+}
+.fsdp-flipbox-layout-14 .fsdp-flip-card-front i {
+  color: #00d2d3;
+  background-color: #fff;
+}
+
+.fsdp-flipbox-layout-14 a {
+  color: #f368e0;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-14 a:hover {
+  background-color: #f368e0;
+  color: #fff;
+}
+.fsdp-flipbox-layout-14 a {
+  color: #5f27cd;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-14 a:hover {
+  background-color: #5f27cd;
+  color: #fff;
+}
+.fsdp-flipbox-layout-14 a {
+  color: #00d2d3;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-14 a:hover {
+  background-color: #00d2d3;
+  color: #fff;
+}
+
+.fsdp-flipbox-layout-14 .fsdp-flip-card-back i {
+  color: #f368e0;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-14 .fsdp-flip-card-back i {
+  color: #5f27cd;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-14 .fsdp-flip-card-back i {
+  color: #00d2d3;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-14 .fsdp-flip-card-back i:after {
+  border: 1px solid #dcdcdc;
+}
+.fsdp-flipbox-layout-14 .fsdp-flip-card-back a {
+  margin-top: 0 !important;
+}
+
+.fsdp-flipbox-layout-14 i {
+  font-size: 24px;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.fsdp-flipbox-layout-14 h6 {
+  text-transform: uppercase;
+}
+.fsdp-flipbox-layout-14 p {
+  height: auto !important;
+}
+.fsdp-flipbox-layout-14 .fsdp-flip-card-back p {
+  height: 72px !important;
+  overflow: hidden;
+}
+
+/* ==== Layout 15 CSS ==== */
+.fsdp-flipbox-layout-15 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-15 .fsdp-flip-card-front {
+  border-radius: 4px;
+}
+.fsdp-flipbox-layout-15 .fsdp-flip-card-front {
+  border: 2px solid #0abde3;
+}
+.fsdp-flipbox-layout-15 .fsdp-flip-card-front {
+  border: 2px solid #e056fd;
+}
+.fsdp-flipbox-layout-15 .fsdp-flip-card-front {
+  border: 2px solid #48dbfb;
+}
+
+.fsdp-flipbox-layout-15 .fsdp-flip-card-back {
+  border: 2px solid #0abde3;
+}
+.fsdp-flipbox-layout-15 .fsdp-flip-card-back {
+  border: 2px solid #e056fd;
+}
+.fsdp-flipbox-layout-15 .fsdp-flip-card-back {
+  border: 2px solid #48dbfb;
+}
+
+.fsdp-flipbox-layout-15 a {
+  color: #4834d4;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-15 a:hover {
+  color: #fff;
+  background-color: #4834d4;
+}
+.fsdp-flipbox-layout-15 a {
+  color: #8e44ad;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-15 a:hover {
+  color: #fff;
+  background-color: #8e44ad;
+}
+.fsdp-flipbox-layout-15 a {
+  color: #341f97;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-15 a:hover {
+  color: #fff;
+  background-color: #341f97;
+}
+
+.fsdp-flipbox-layout-15 h6 {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.fsdp-flipbox-layout-15 h6:after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  bottom: 0;
+  margin-left: auto;
+  content: "";
+  width: 60px;
+  height: 2px;
+}
+.fsdp-flipbox-layout-15 h6:after {
+  background-color: #0abde3;
+}
+.fsdp-flipbox-layout-15 h6:after {
+  background-color: #e056fd;
+}
+.fsdp-flipbox-layout-15 h6:after {
+  background-color: #48dbfb;
+}
+
+.fsdp-flipbox-layout-15 i {
+  color: #4834d4;
+}
+.fsdp-flipbox-layout-15 i {
+  color: #8e44ad;
+}
+.fsdp-flipbox-layout-15 i {
+  color: #341f97;
+}
+.fsdp-flipbox-layout-15 i {
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+}
+.fsdp-flipbox-layout-15 p {
+  height: auto !important;
+}
+
+/* ==== Layout 17 CSS ==== */
+.fsdp-flipbox-layout-17 .fsdp-flip-card {
+  height: 200px;
+}
+.fsdp-flipbox-layout-17 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-17 .fsdp-flip-card-front {
+  border-radius: 8px;
+}
+.fsdp-flipbox-layout-17 .fsdp-flip-card-front,
+.fsdp-flipbox-layout-17 .fsdp-flip-card-back {
+  background-color: #3ae374;
+}
+.fsdp-flipbox-layout-17 .fsdp-flip-card-front,
+.fsdp-flipbox-layout-17 .fsdp-flip-card-back {
+  background-color: #ffaf40;
+}
+.fsdp-flipbox-layout-17 .fsdp-flip-card-front,
+.fsdp-flipbox-layout-17 .fsdp-flip-card-back {
+  background-color: #cd84f1;
+}
+
+.fsdp-flipbox-layout-17 .fsdp-flip-card-back {
+  border: 1px solid #3ae374;
+}
+.fsdp-flipbox-layout-17 .fsdp-flip-card-back {
+  border: 1px solid #ffaf40;
+}
+.fsdp-flipbox-layout-17 .fsdp-flip-card-back {
+  border: 1px solid #cd84f1;
+}
+
+.fsdp-flipbox-layout-17 .fsdp-flip-card-back {
+  border: 1px solid #20bf6b;
+}
+.fsdp-flipbox-layout-17 .fsdp-flip-card-back {
+  border: 1px solid #fa8231;
+}
+.fsdp-flipbox-layout-17 .fsdp-flip-card-back {
+  border: 1px solid #8854d0;
+}
+
+.fsdp-flipbox-layout-17 a {
+  color: #fff;
+}
+.fsdp-flipbox-layout-17 a:hover {
+  color: #4b4b4b;
+}
+.fsdp-flipbox-layout-17 a:hover {
+  color: #ff3838;
+}
+.fsdp-flipbox-layout-17 a:hover {
+  color: #7158e2;
+}
+
+.fsdp-flipbox-layout-17 i {
+  font-size: 30px;
+  color: #fff;
+  margin-right: 10px;
+}
+.fsdp-flipbox-layout-17 p {
+  height: auto !important;
+}
+
+/* ==== Layout 18 CSS ==== */
+.fsdp-flipbox-layout-18 .fsdp-flip-card img {
+  height: 260px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+.fsdp-flipbox .fsdp-flipbox-layout-18 .fsdp-flip-card-front, .fsdp-flipbox .fsdp-flipbox-layout-18 .fsdp-flip-card-back{
+  padding:0px;
+}
+.fsdp-flipbox-layout-18 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-18 .fsdp-flip-card-front {
+  border-radius: 8px;
+}
+.fsdp-flipbox-layout-18 .fsdp-flip-card-back {
+  background-color: #eb3b5a;
+}
+.fsdp-flipbox-layout-18 .fsdp-flip-card-back {
+  background-color: #2d98da;
+}
+.fsdp-flipbox-layout-18 .fsdp-flip-card-back {
+  background-color: #f7b731;
+}
+
+.fsdp-flipbox-layout-18 .fsdp-flip-card-front {
+  padding: 0;
+  align-items: normal;
+  background-color: #f0f0f0;
+}
+
+.fsdp-flipbox-layout-18 .fsdp-flip-card-front .flip-heading {
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 0px;
+}
+.fsdp-flipbox-layout-18 a {
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-18 a {
+  color: #eb3b5a;
+}
+.fsdp-flipbox-layout-18 a {
+  color: #2d98da;
+}
+.fsdp-flipbox-layout-18 a {
+  color: #f7b731;
+}
+
+.fsdp-flipbox-layout-18 a:hover {
+  color: #fff;
+  background-color: #eb3b5a;
+}
+.fsdp-flipbox-layout-18 a:hover {
+  color: #fff;
+  background-color: #2d98da;
+}
+.fsdp-flipbox-layout-18 a:hover {
+  color: #fff;
+  background-color: #7158e2;
+}
+
+.fsdp-flipbox-layout-18 i {
+  font-size: 30px;
+  color: #fff;
+  margin-right: 10px;
+}
+.fsdp-flipbox-layout-18 p {
+  height: auto !important;
+}
+
+/* ==== Layout 19 CSS ==== */
+.fsdp-flipbox-layout-19 .fsdp-flip-card img {
+  height: 280px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.fsdp-flipbox-layout-19 .fsdp-flip-card {
+  height: 280px;
+}
+.fsdp-flipbox-layout-19 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-19 .fsdp-flip-card-front {
+  border-radius: 6px;
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+}
+.fsdp-flipbox-layout-19 .fsdp-flip-card-front {
+  padding: 0;
+}
+.fsdp-flipbox-layout-19 .fsdp-flip-card-back {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.fsdp-flipbox-layout-19 .fsdp-flip-card-back {
+  background-color: #26de81;
+}
+.fsdp-flipbox-layout-19 .fsdp-flip-card-back {
+  background-color: #fd9644;
+}
+.fsdp-flipbox-layout-19 .fsdp-flip-card-back {
+  background-color: #4b7bec;
+}
+
+.fsdp-flipbox-layout-19 h6 {
+  text-transform: uppercase;
+}
+.fsdp-flipbox-layout-19 .fsdp-flip-card-front h6 {
+  color: #eb3b5a;
+}
+.fsdp-flipbox-layout-19 .fsdp-flip-card-front h6 {
+  color: #2d98da;
+}
+.fsdp-flipbox-layout-19 .fsdp-flip-card-front h6 {
+  color: #f7b731;
+}
+
+.fsdp-flipbox-layout-19 a {
+  color: #fff;
+  float: right;
+  min-width: auto;
+}
+.fsdp-flipbox-layout-19 a:hover i {
+  color: #eb3b5a;
+}
+
+.fsdp-flipbox-layout-19 i {
+  font-size: 25px;
+  color: #fff;
+}
+.fsdp-flipbox-layout-19 p {
+  height: auto !important;
+}
+
+/* ==== Layout 21 CSS ==== */
+.fsdp-flipbox-layout-21 .fsdp-flip-card img {
+  height: 260px;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+}
+.fsdp-flipbox-layout-21 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-21 .fsdp-flip-card-front {
+  border-radius: 4px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+}
+
+.fsdp-flipbox-layout-21 .fsdp-flip-card-front {
+  border-top: 5px solid #ff7675;
+}
+.fsdp-flipbox-layout-21 .fsdp-flip-card-front {
+  border-top: 5px solid #e84393;
+}
+.fsdp-flipbox-layout-21 .fsdp-flip-card-front {
+  border-top: 5px solid #00cec9;
+}
+
+.fsdp-flipbox-layout-21 .fsdp-flip-card-back {
+  background-color: #ff7675;
+}
+.fsdp-flipbox-layout-21 .fsdp-flip-card-back {
+  background-color: #e84393;
+}
+.fsdp-flipbox-layout-21 .fsdp-flip-card-back {
+  background-color: #00cec9;
+}
+
+.fsdp-flipbox-layout-21 .fsdp-flip-card-front {
+  padding: 0;
+  align-items: flex-end;
+}
+
+.fsdp-flipbox-layout-21 a {
+  background-color: #fff;
+  color: #ff7675;
+}
+.fsdp-flipbox-layout-21 a {
+  background-color: #fff;
+  color: #e84393;
+}
+.fsdp-flipbox-layout-21 a {
+  background-color: #fff;
+  color: #00cec9;
+}
+.fsdp-flipbox-layout-21 a:hover {
+  color: #fff;
+  background-color: #eb3b5a;
+}
+.fsdp-flipbox-layout-21 a:hover {
+  color: #fff;
+  background-color: #2d98da;
+}
+.fsdp-flipbox-layout-21 a:hover {
+  color: #fff;
+  background-color: #00b894;
+}
+
+.fsdp-flipbox-layout-21 i {
+  font-size: 45px;
+  color: #fff;
+  margin-right: 10px;
+}
+.fsdp-flipbox-layout-21 p {
+  height: auto !important;
+}
+.fsdp-flipbox-layout-21 h6 {
+  padding-bottom: 15px;
+}
+
+/* ==== Layout 23 CSS ==== */
+.fsdp-flipbox-layout-23 .fsdp-flip-card {
+  width: 280px;
+  height: 280px;
+}
+.fsdp-flipbox-layout-23 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-23 .fsdp-flip-card-front {
+  border-radius: 4px;
+  padding: 5px;
+}
+.fsdp-flipbox-layout-23 .fsdp-flip-card-front-inner,
+.fsdp-flipbox-layout-23 .fsdp-flip-card-back-inner {
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.fsdp-flipbox-layout-23 .fsdp-flip-card-front p {
+  color: #333;
+  margin-top: 10px;
+}
+.fsdp-flipbox-layout-23 .fsdp-flip-card-back p {
+  margin-top: 10px;
+}
+
+.fsdp-flipbox-layout-23 .fsdp-flip-card-front {
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+.fsdp-flipbox-layout-23 .fsdp-flip-card-front h6 {
+  color: #f368e0;
+}
+.fsdp-flipbox-layout-23 .fsdp-flip-card-front-inner {
+  border: 2px solid #f368e0;
+}
+.fsdp-flipbox-layout-23 .fsdp-flip-card-front h6 {
+  color: #5f27cd;
+}
+.fsdp-flipbox-layout-23 .fsdp-flip-card-front-inner {
+  border: 2px solid #5f27cd;
+}
+.fsdp-flipbox-layout-23 .fsdp-flip-card-front h6 {
+  color: #00d2d3;
+}
+.fsdp-flipbox-layout-23 .fsdp-flip-card-front-inner {
+  border: 2px solid #00d2d3;
+}
+
+.fsdp-flipbox-layout-23 .fsdp-flip-card-front,
+.fsdp-flipbox-layout-23 .fsdp-flip-card-back {
+  align-items: normal;
+  padding: 10px;
+}
+
+.fsdp-flipbox-layout-23 .fsdp-flip-card-front i {
+  background-color: #f368e0;
+}
+.fsdp-flipbox-layout-23 .fsdp-flip-card-front i {
+  background-color: #5f27cd;
+}
+.fsdp-flipbox-layout-23 .fsdp-flip-card-front i {
+  background-color: #00d2d3;
+}
+
+.fsdp-flipbox-layout-23 .fsdp-flip-card-back-inner {
+  border: 2px solid #fff;
+}
+.fsdp-flipbox-layout-23 .fsdp-flip-card-back h6 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.fsdp-flipbox-layout-23 .fsdp-flip-card-back h6:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.fsdp-flipbox-layout-23 .fsdp-flip-card-back {
+  background-color: #f368e0;
+}
+.fsdp-flipbox-layout-23 .fsdp-flip-card-back {
+  background-color: #5f27cd;
+}
+.fsdp-flipbox-layout-23 .fsdp-flip-card-back {
+  background-color: #00d2d3;
+}
+
+.fsdp-flipbox-layout-23 i {
+  font-size: 40px;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.fsdp-flipbox-layout-23 p {
+  height: auto !important;
+}
+
+/* ==== Layout 24 CSS ==== */
+.fsdp-flipbox-layout-24 .fsdp-flip-card {
+  width: 280px;
+  height: 280px;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-24 .fsdp-flip-card-front {
+  border-radius: 4px;
+  padding: 5px;
+  align-items: normal;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-front-inner,
+.fsdp-flipbox-layout-24 .fsdp-flip-card-back-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: normal;
+}
+
+.fsdp-flipbox-layout-24 .fsdp-flip-card-front p {
+  color: #333;
+  margin-top: 10px;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-back p {
+  margin-top: 10px;
+}
+
+.fsdp-flipbox-layout-24 .fsdp-flip-card-front {
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-front h6 {
+  color: #2ed573;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-front {
+  border: 2px solid #2ed573;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-front h6 {
+  color: #ffa502;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-front {
+  border: 2px solid #ffa502;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-front h6 {
+  color: #5352ed;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-front {
+  border: 2px solid #5352ed;
+}
+
+.fsdp-flipbox-layout-24 .fsdp-flip-card-front i {
+  color: #fff;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-front i {
+  background-color: #2ed573;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-front i {
+  background-color: #ffa502;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-front i {
+  background-color: #5352ed;
+}
+
+.fsdp-flipbox-layout-24 .fsdp-flip-card-back i {
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-back i {
+  color: #2ed573;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-back i {
+  color: #ffa502;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-back i {
+  color: #5352ed;
+}
+
+.fsdp-flipbox-layout-24 .fsdp-flip-card-back {
+  background-color: #2ed573;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-back {
+  background-color: #ffa502;
+}
+.fsdp-flipbox-layout-24 .fsdp-flip-card-back {
+  background-color: #5352ed;
+}
+
+.fsdp-flipbox-layout-24 i {
+  font-size: 25px;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+}
+
+.fsdp-flipbox-layout-24 p {
+  height: auto !important;
+}
+
+/* ==== Layout 25 CSS ==== */
+.fsdp-flipbox-layout-25.fsdp-flip-card {
+  border-radius: 4px;
+  border-radius: 50%;
+  height: 262px;
+}
+.fsdp-flipbox-layout-25.fsdp-flip-card img {
+  width: 100%;
+  height: 236px;
+  object-fit: cover;
+  border-radius: 4px;
+  border-radius: 50%;
+}
+.fsdp-flipbox-layout-25 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-25 .fsdp-flip-card-front {
+  border-radius: 50%;
+  padding: 3px;
+  height: 262px;
+  width: 262px;
+  margin: 0 auto;
+  align-items: normal;
+}
+
+.fsdp-flipbox-layout-25 .fsdp-flip-card-front-inner,
+.fsdp-flipbox-layout-25 .fsdp-flip-card-back-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.fsdp-flipbox-layout-25 .fsdp-flip-card-front,
+.fsdp-flipbox-layout-25 .fsdp-flip-card-front-inner {
+  border: 5px solid #a29bfe;
+}
+.fsdp-flipbox-layout-25 .fsdp-flip-card-front,
+.fsdp-flipbox-layout-25 .fsdp-flip-card-front-inner {
+  border: 5px solid #fd79a8;
+}
+.fsdp-flipbox-layout-25 .fsdp-flip-card-front,
+.fsdp-flipbox-layout-25 .fsdp-flip-card-front-inner {
+  border: 5px solid #ffb142;
+}
+
+.fsdp-flipbox-layout-25 .fsdp-flip-card-back-inner {
+  border: 5px solid #fff;
+}
+.fsdp-flipbox-layout-25 .fsdp-flip-card-back {
+  padding: 8px;
+}
+.fsdp-flipbox-layout-25 .fsdp-flip-card-back {
+  background-color: #a29bfe;
+}
+.fsdp-flipbox-layout-25 .fsdp-flip-card-back {
+  background-color: #fd79a8;
+}
+.fsdp-flipbox-layout-25 .fsdp-flip-card-back {
+  background-color: #ffb142;
+}
+
+.fsdp-flipbox-layout-25 a {
+  margin-top: 0;
+}
+.fsdp-flipbox-layout-25 a {
+  background-color: #fff;
+  color: #a29bfe;
+}
+.fsdp-flipbox-layout-25 a {
+  background-color: #fff;
+  color: #e84393;
+}
+.fsdp-flipbox-layout-25 a {
+  background-color: #fff;
+  color: #00cec9;
+}
+.fsdp-flipbox-layout-25 a:hover {
+  color: #fff;
+  background-color: #a29bfe;
+}
+.fsdp-flipbox-layout-25 a:hover {
+  color: #fff;
+  background-color: #d63031;
+}
+.fsdp-flipbox-layout-25 a:hover {
+  color: #00cec9;
+  background-color: #fff;
+}
+
+.fsdp-flipbox-layout-25 p {
+  height: auto !important;
+  margin-top: 15px;
+}
+
+.fsdp-flipbox-layout-25 h6 {
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  position: relative;
+}
+.fsdp-flipbox-layout-25 .flip-heading:after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  content: "";
+  margin-right: auto;
+  margin-left: auto;
+  width: 66px;
+  height: 2px;
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-25 .flip-heading:after {
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-25 .flip-heading:after {
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-25 .flip-heading:after {
+  background-color: #fff;
+}
+
+/* ==== Layout 26 CSS ==== */
+.fsdp-flipbox-layout-26 .fsdp-flip-card {
+  width: 280px;
+  height: 280px;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-26 .fsdp-flip-card-front {
+  border-radius: 4px;
+  padding: 5px;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-front-inner,
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back-inner {
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.fsdp-flipbox-layout-26 .fsdp-flip-card-front p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back p {
+  margin-top: 10px;
+}
+
+.fsdp-flipbox-layout-26 .fsdp-flip-card-front h6 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.fsdp-flipbox-layout-26 .fsdp-flip-card-front-inner {
+  border: 2px solid #fff;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-front-inner {
+  border: 2px solid #fff;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-front-inner {
+  border: 2px solid #fff;
+}
+
+.fsdp-flipbox-layout-26 .fsdp-flip-card-front,
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back {
+  align-items: normal;
+  padding: 10px;
+}
+
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back-inner {
+  border: 2px solid #fff;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back h6 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back h6:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.fsdp-flipbox-layout-26 .fsdp-flip-card-front {
+  background-color: #f368e0;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-front {
+  background-color: #5f27cd;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-front {
+  background-color: #00d2d3;
+}
+
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back {
+  background-color: #badc58;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back {
+  background-color: #ff7979;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back {
+  background-color: #be2edd;
+}
+
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back a {
+  margin-top: 0;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back a {
+  background-color: #fff;
+  color: #badc58;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back a {
+  background-color: #fff;
+  color: #ff7979;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back a {
+  background-color: #fff;
+  color: #be2edd;
+}
+
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back a:hover {
+  background-color: #f368e0;
+  color: #fff;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back a:hover {
+  background-color: #5f27cd;
+  color: #fff;
+}
+.fsdp-flipbox-layout-26 .fsdp-flip-card-back a:hover {
+  background-color: #00d2d3;
+  color: #fff;
+}
+
+.fsdp-flipbox-layout-26 p {
+  height: auto !important;
+}
+
+/* ==== Layout 27 CSS ==== */
+.fsdp-flipbox-layout-27 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-27 .fsdp-flip-card-front {
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+.fsdp-flipbox-layout-27 .fsdp-flip-card-back {
+  background-color: #a29bfe;
+}
+.fsdp-flipbox-layout-27 .fsdp-flip-card-back {
+  background-color: #fd79a8;
+}
+.fsdp-flipbox-layout-27 .fsdp-flip-card-back {
+  background-color: #6ab04c;
+}
+
+.fsdp-flipbox-layout-27 .fsdp-flip-card-front {
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-27 .fsdp-flip-card-front {
+  background-color: #f3f3f3;
+}
+
+.fsdp-flipbox-layout-27 a {
+  margin-top: 0;
+}
+.fsdp-flipbox-layout-27 a {
+  background-color: #fff;
+  color: #a29bfe;
+}
+.fsdp-flipbox-layout-27 a {
+  background-color: #fff;
+  color: #fd79a8;
+}
+.fsdp-flipbox-layout-27 a {
+  background-color: #fff;
+  color: #6ab04c;
+}
+.fsdp-flipbox-layout-27 a:hover {
+  color: #fff;
+  background-color: #333;
+}
+.fsdp-flipbox-layout-27 a:hover {
+  color: #fff;
+  background-color: #333;
+}
+.fsdp-flipbox-layout-27 a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+.fsdp-flipbox-layout-27 p {
+  height: auto !important;
+  margin-top: 15px;
+}
+
+.fsdp-flipbox-layout-27 h6 {
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  position: relative;
+}
+.fsdp-flipbox-layout-27 h6:after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  content: "";
+  margin-right: auto;
+  margin-left: auto;
+  width: 66px;
+  height: 3px;
+  background-color: #fff;
+}
+
+.fsdp-flipbox-layout-27 .fsdp-flip-card-front h6 {
+  color: #eb4d4b !important;
+}
+.fsdp-flipbox-layout-27 .fsdp-flip-card-front h6:after {
+  background-color: #eb4d4b;
+}
+.fsdp-flipbox-layout-27 .fsdp-flip-card-front h6 {
+  color: #4834d4 !important;
+}
+.fsdp-flipbox-layout-27 .fsdp-flip-card-front h6:after {
+  background-color: #4834d4;
+}
+.fsdp-flipbox-layout-27 .fsdp-flip-card-front h6 {
+  color: #6ab04c !important;
+}
+.fsdp-flipbox-layout-27 .fsdp-flip-card-front h6:after {
+  background-color: #6ab04c;
+}
+
+.fsdp-flipbox-layout-27 h6:after {
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-27 h6:after {
+  background-color: #fff;
+}
+.fsdp-flipbox-layout-27 h6:after {
+  background-color: #fff;
+}
+
+/* ==== Layout 28 CSS ==== */
+.fsdp-flipbox-layout-28 .fsdp-flip-card {
+  height: 220px;
+}
+.fsdp-flipbox-layout-28 .fsdp-flip-card-front {
+  background-color: #fff;
+  border: 2px solid #ebebeb;
+}
+.fsdp-flipbox-layout-28 .fsdp-flip-card-front {
+  border: 2px solid #8e44ad;
+  background-size: cover;
+}
+.fsdp-flipbox-layout-28 .fsdp-flip-card-front {
+  background-color: #fff;
+  border: 2px solid #f1c40f;
+}
+
+.fsdp-flipbox-layout-28 .fsdp-flip-card-back {
+  border: 2px solid #ebebeb;
+  background-color: #f1c40f;
+}
+.fsdp-flipbox-layout-28 .fsdp-flip-card-back {
+  border: 2px solid #ebebeb;
+  background-size: cover;
+}
+.fsdp-flipbox-layout-28 .fsdp-flip-card-back {
+  border: 2px solid #ebebeb;
+  background-color: #f1c40f;
+}
+
+.fsdp-flipbox-layout-28 i {
+  color: #ff4757;
+}
+.fsdp-flipbox-layout-28 i {
+  color: #8e44ad;
+}
+.fsdp-flipbox-layout-28 i {
+  color: #f1c40f;
+}
+
+.fsdp-flipbox-layout-28 .fsdp-flip-card-front h6 {
+  color: #333333;
+}
+.fsdp-flipbox-layout-28 .fsdp-flip-card-front h6 {
+  color: #8e44ad;
+}
+.fsdp-flipbox-layout-28 .fsdp-flip-card-front h6 {
+  color: #f1c40f;
+}
+
+.fsdp-flipbox-layout-28 i {
+  font-size: 70px;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  display: block;
+}
+.fsdp-flipbox-layout-28 a {
+  color: #fff;
+  margin-top: 0;
+}
+
+.fsdp-flipbox-layout-28 a {
+  background-color: #be2edd;
+  color: #fff;
+}
+.fsdp-flipbox-layout-28 a:hover {
+  background-color: #ff4757;
+  color: #fff;
+}
+.fsdp-flipbox-layout-28 a {
+  background-color: #be2edd;
+  color: #fff;
+}
+.fsdp-flipbox-layout-28 a:hover {
+  background-color: #4834d4;
+  color: #fff;
+}
+.fsdp-flipbox-layout-28 a {
+  background-color: #be2edd;
+  color: #fff;
+}
+.fsdp-flipbox-layout-28 a:hover {
+  background-color: #2ed573;
+  color: #fff;
+}
+
+.fsdp-flipbox-layout-28 .fsdp-flip-card-back,
+.fsdp-flipbox-layout-28 .fsdp-flip-card-front {
+  border-radius: 4px;
+}
+.fsdp-flipbox-layout-28 p {
+  height: auto !important;
+}
+
+/* ========= ANIMATION CSS ========== */
+
+/* Flip Vertical Right */
+/* .flip-vertical-right .fsdp-flip-card-back {transform: rotateY(180deg);}
+.fsdp-flip-card:hover .flip-vertical-right {transform:rotateY(180deg);}
+ */
+/* Flip Vertical Left */
+/* .flip-vertical-left .fsdp-flip-card-back {transform: rotateY(-180deg);}
+.fsdp-flip-card:hover .flip-vertical-left {transform:rotateY(-180deg);}
+ */
+/* Flip Horizontal Top */
+/* .flip-horizontal-top .fsdp-flip-card-back {transform: rotateX(180deg);}
+.fsdp-flip-card:hover .flip-horizontal-top {transform:rotateX(180deg);}
+ */
+/* Flip Horizontal Bottom */
+/* .flip-horizontal-bottom .fsdp-flip-card-back {transform: rotateX(-180deg);}
+.fsdp-flip-card:hover .flip-horizontal-bottom {transform:rotateX(-180deg);}
+ */
+
+/* ===== Responsive CSS ==== */
+
+@media (max-width: 575px) {
+  body .fsdp-flipbox p {
+    font-size: 14px !important;
+  }
+  body .fsdp-flipbox h6,
+  .fsdp-flipbox-layout-26 .fsdp-flip-card-front p {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  p {
+    font-size: 12px !important;
+  }
+  .fsdp-flipbox-layout-25 .fsdp-flip-card {
+    height: 184px;
+  }
+  .fsdp-flipbox-layout-25 .fsdp-flip-card img {
+    width: 100%;
+    height: 156px;
+  }
+  .fsdp-flipbox-layout-25 .fsdp-flip-card-back,
+  .fsdp-flipbox-layout-25 .fsdp-flip-card-front {
+    height: 182px;
+    width: 182px !important;
+    margin: 0 auto !important;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 100%;
+  }
+  .fsdp-flip-card-back,
+  .fsdp-flip-card-front {
+    width: 100% !important;
+  }
+  .fsdp-flipbox-layout-12 h4 {
+    font-size: 20px;
+  }
+  .fsdp-flipbox-layout-22 .fsdp-flip-card {
+    max-width: 100% !important;
+  }
+  .fsdp-flipbox-layout-23 i {
+    font-size: 30px;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+  }
+  .fsdp-flipbox p {
+    font-size: 12px !important;
+  }
+  .fsdp-flipbox-layout-23 p {
+    margin-bottom: 0;
+  }
+  h6 {
+    font-size: 16px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .fsdp-flipbox-layout-25 .fsdp-flip-card {
+    height: 216px;
+  }
+  .fsdp-flipbox-layout-25 .fsdp-flip-card img {
+    width: 100%;
+    height: 190px;
+  }
+  .fsdp-flipbox-layout-25 .fsdp-flip-card-back,
+  .fsdp-flipbox-layout-25 .fsdp-flip-card-front {
+    height: 216px;
+    width: 216px;
+  }
+  .fsdp-flipbox-layout-26 .fsdp-flip-card-front p {
+    font-size: 16px;
+  }
+  p {
+    line-height: 18px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .fsdp-flipbox h6 {
+    font-size: 16px !important;
+  }
+  .fsdp-flipbox p {
+    line-height: 18px;
+  }
+  .fsdp-flipbox-layout-13 a,
+  .fsdp-flipbox-layout-19 a {
+    margin-top: 0;
+  }
+  .fsdp-flipbox-layout-23 .fsdp-flip-card-back p {
+    height: 200px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 992px) {
+  .fsdp-flip-card {
+    max-width: 300px !important;
+  }
+}
+
+.fsdp-flipbox .fsdp-flip-card-inner {
+  height: 100%;
+}
+.fsdp-flip-card-inner .fsdp-flip-card-front,
+.fsdp-flip-card-inner .fsdp-flip-card-back {
+  min-height: 320px;
+  height: auto;
+}
+
+
+
+/** CUSTOM CSS OVERRIDE **/
+html body .fsdp-flipbox .w-100{
+  width: 100%;
+}
